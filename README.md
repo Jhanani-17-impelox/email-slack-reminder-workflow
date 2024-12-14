@@ -2,6 +2,9 @@
 
 This project defines a workflow system that involves three main agents (Email Agent, Slack Agent, and Workflow Agent) and several subgraphs to represent different parts of the process. The system integrates LangChain for handling language model queries, LangGraph for managing state graphs, and external services like Gmail and Slack for communication.
 
+![image](https://github.com/user-attachments/assets/3d0c79d0-3988-456f-887b-add49ec5a914)
+
+
 ## Agents and Subagents
 
 ### EmailAgent
@@ -92,5 +95,3 @@ The workflow is modular and split into multiple graphs and subgraphs, each repre
 - **WorkUpdateWorkflow:** Orchestrates the entire process by using LangGraph and subgraphs to manage state transitions for checking email updates, time, and sending reminders.
 
 This workflow ensures that users receive reminders based on whether they’ve provided a work update via email and the time of day, combining both email and Slack notifications into a seamless process.
-
-![image](https://github.com/user-attachments/assets/3d0c79d0-3988-456f-887b-add49ec5a914)
