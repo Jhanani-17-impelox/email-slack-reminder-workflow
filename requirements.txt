@@ -1,0 +1,6 @@
+langchain
+langchain_openai
+langgraph
+langchain_google_community
+langchain_google_community[gmail]
+slack_sdk
